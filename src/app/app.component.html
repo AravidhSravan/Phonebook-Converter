@@ -1,0 +1,9 @@
+<h1 class="title">Pipe PhoneBook</h1>
+<div class="container">  
+    <label>Country code:</label> &nbsp;
+    <input type="text" placeholder="countrycode" [(ngModel)]="code" class="inputBtn"> <br>
+    <label>Mobile number:</label> &nbsp;
+    <input type="text" placeholder="mobilenumber" [(ngModel)]="number" class="inputBtn"><br>
+    <h2>After using pipe:</h2>
+    <b class="afterPipe"> +  {{code}}      {{number |employeeTitle}}</b>  
+</div>

@@ -1,0 +1,28 @@
+.title {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width:400px;
+    height: 250px;
+    background-color:rgb(238, 171, 159);
+    margin-left: 36%;
+    padding:4%;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+.inputBtn {
+    width: 50%;
+    height: 40px;
+    margin: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border-radius: 16px;
+    color: black;
+    outline: none;
+}
+.afterPipe {
+    margin-left: 2%;
+}
+n
